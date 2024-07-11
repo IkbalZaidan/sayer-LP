@@ -4954,7 +4954,7 @@ nav.navbar.validnavs.navbar-style-two .navbar-header .logo-display {
 	content: "\f062";
 	font-family: "Font Awesome 5 Pro";
 	/* left: 50%; */
-	/* transform: translate(-50%, -50%) rotate(-90deg); */
+	transform: rotate(45deg);
 	font-size: 120px;
 	-webkit-text-stroke: 1px var(--color-primary);
 	color: transparent;
@@ -4973,14 +4973,21 @@ nav.navbar.validnavs.navbar-style-two .navbar-header .logo-display {
 }
 
 .about-style-one-card {
-	/* background: linear-gradient(45deg, var(--color-primary) 30%, #0CE0FF 90%); */
-	background: var(--dark);
+	/* background: linear-gradient(45deg, var(--color-primary) 10%, #0CE0FF 90%); */
+	/* background: var(--white); */
+	background: var(--dark-secondary);;
 	box-shadow: 0px 15px 60px -10px rgb(109 117 143 / 33%);
-	padding: 80px;
+	padding: 50px;
 	/* margin-left: -330px;
 	margin-top: -70px; */
-	border-radius: 10px;
+	border-radius: 5px;
 	position: relative;
+	/* border: 2px solid var(--color-primary); */
+}
+
+.about-style-one-card ul li{
+	/* color: black !important; */
+
 }
 
 .ceo-author {
@@ -7220,20 +7227,17 @@ ul.home-blog-meta li a {
     # Feature Style One
 =================================================================== */
 .feature-style-one-items {
-	/* display: flex; */
+	display: grid;
 	align-items: center;
 	overflow: hidden;
 	border-radius: 10px;
 	position: relative;
-	width: 180%;
+	width: 150%;
 	margin-top: 50px;
 	grid-template-columns: 1fr 1fr 1fr;
 	position: relative;
 	z-index: 2;
-	background: var(--color-primary);
-	
 }
-
 
 .choose-us-style-one-items {
 	position: relative;
@@ -7276,9 +7280,8 @@ ul.home-blog-meta li a {
 }
 
 .feature-style-one-items h4 {
-	font-size: 24px;
+	font-size: 20px;
 	margin-bottom: 15px;
-	color: var(--color-primary);
 }
 
 .feature-style-one-items p {
@@ -7288,37 +7291,6 @@ ul.home-blog-meta li a {
 
 .feature-style-one-item:nth-child(2n) {
 	background: var(--color-primary);
-}
-
-
-
-.feature-style-two-item {
-	background: var(--dark);
-	padding: 30px;
-}
-
-.feature-style-two-item img {
-	height: 50px;
-	margin-bottom: 30px;
-}
-
-.feature-style-two-item h4 {
-	font-size: 24px;
-	vertical-align: middle;
-	text-align: center;
-	margin-top: 35%;
-	color: var(--white) !important;
-}
-
-.feature-style-two-item p {
-	margin: 0;
-	color: #e2e2e2;
-}
-
-
-.feature-style-two-item{
-	background: var(--color-primary);
-
 }
 
 /* Feature Style Two */
