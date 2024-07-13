@@ -377,6 +377,7 @@ p {
 	text-transform: none;
 	font-weight: 500;
 	font-family: var(--font-default);
+	/* font-size: 18px; */
 }
 
 .split-text {
@@ -860,7 +861,7 @@ p {
 	z-index: 1;
 	margin-bottom: 15px;
 	align-items: center;
-	font-size: 20px;
+	font-size: 30px;
 }
 
 
@@ -1889,6 +1890,7 @@ p {
 }
 
 .btn.btn-theme {
+	font-size: 18px;
 	color: var(--white);
 	border: none;
 	background: var(--color-primary);
@@ -4954,8 +4956,8 @@ nav.navbar.validnavs.navbar-style-two .navbar-header .logo-display {
 	content: "\f062";
 	font-family: "Font Awesome 5 Pro";
 	/* left: 50%; */
-	transform: rotate(45deg);
-	font-size: 120px;
+	/* transform: rotate(45deg); */
+	font-size: 200px;
 	-webkit-text-stroke: 1px var(--color-primary);
 	color: transparent;
 	font-weight: 900;
@@ -4972,18 +4974,6 @@ nav.navbar.validnavs.navbar-style-two .navbar-header .logo-display {
 	position: relative;
 }
 
-.about-style-one-card {
-	/* background: linear-gradient(45deg, var(--color-primary) 10%, #0CE0FF 90%); */
-	/* background: var(--white); */
-	background: var(--dark-secondary);;
-	box-shadow: 0px 15px 60px -10px rgb(109 117 143 / 33%);
-	padding: 50px;
-	/* margin-left: -330px;
-	margin-top: -70px; */
-	border-radius: 5px;
-	position: relative;
-	/* border: 2px solid var(--color-primary); */
-}
 
 .about-style-one-card ul li{
 	/* color: black !important; */
@@ -5010,17 +5000,22 @@ nav.navbar.validnavs.navbar-style-two .navbar-header .logo-display {
 }
 
 ul.list-uncheck {
-	margin: 0;
-	padding: 0;
+	text-align: start;
+
+	padding-inline: 20px;
+	padding-block: 40px;
 	list-style: none;
 }
 
 
 ul.list-check {
+	text-align: start;
 	margin: 0;
-	padding: 0;
+	padding-inline: 20px;
+	padding-block: 40px;
 	list-style: none;
 }
+
 
 ul.list-uncheck li {
 	/* font-weight: 700; */
@@ -5711,9 +5706,15 @@ ul.list-style-sevel li::after {
 	justify-content: center;
 	font-size: 24px;
 	font-weight: 800;
-	line-height: 1;
+	line-height: 1.3;
 	margin-bottom: 30px;
 }
+
+.history-fun-facts .fun-fact .counter .timer {
+
+	margin-inline: 10px;
+}
+
 
 .history-fun-facts .icon {
 	height: 90px;
@@ -10353,7 +10354,7 @@ footer.bg-dark .f-item a.btn {
 }
 
 footer.bg-dark .f-item a:hover {
-	color: var(--white);
+	color: var(--color-primary);
 }
 
 footer .f-item.link li {
@@ -13119,8 +13120,43 @@ footer.footer-two {
 }
 
 .fun-fact-title{
-	margin-bottom: 10px;
-	font-size: 34px;
+	position: relative;
+	margin-bottom: -30px;
+	font-size: 20px;
 	font-weight: bold;
-	color: var(--color-primary);
+	background: var(--color-primary);
+	color: #fff;
+	text-align: center;
+	z-index: 3;
+	width: 70%;
+	border-radius: 5px;
+	padding-inline: 30px;
+	padding-block: 10px;
+}
+
+
+.about-style-one-card {
+	background: #171827;
+	box-shadow: 0px 15px 60px -10px rgb(109 117 143 / 33%);
+	/* padding: 20px; */
+	border-radius: 10px;
+	position: relative;
+}
+
+
+.list-check-card{
+	padding-block: 30px;
+	text-align: center;
+	/* color: #000; */
+	color: #fff;
+}
+
+.list-check-card li{
+	padding-block: 10px;
+	font-size: 18px;
+	/* font-weight: bold; */
+}
+
+.quote-style-one-text{
+	font-size: 18px;
 }
