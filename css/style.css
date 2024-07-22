@@ -90,7 +90,7 @@
   --thm-base: #83dcfa;
   --thm-base-rgb: 255, 170, 23;
   --thm-black: #222429;
-  --thm-text: #686a6f;
+  --thm-text: #b9bcc4;
 }
 
 .container {
@@ -106,7 +106,7 @@
 body {
   direction: rtl;
   text-align: right;
-  font-size: 16px;
+  font-size: 18px;
   font-family: var(--thm-b-font);
   color: var(--thm-text);
   line-height: 2.125em;
@@ -192,6 +192,7 @@ button {
 }
 
 p {
+  font-size: 20px;
   line-height: 2.125em;
   margin: 0 0 20px;
 }
@@ -760,6 +761,22 @@ img {
   transition: all 300ms ease;
 }
 
+.main-menu-mob .navigation>li {
+  position: relative;
+  float: right;
+  padding: 5px 0px;
+  margin-inline: 5px;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+
+.main-menu-mob .navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+
 .main-menu .navigation>li:last-child {
   margin-right: 0px;
 }
@@ -767,6 +784,14 @@ img {
 .main-menu .navigation>li:last-child:after {
   display: none;
 }
+
+.mobile-nav-toggler {
+  display: none;
+}
+
+
+
+
 
 .main-menu .navigation>li>a {
   position: relative;
@@ -3684,7 +3709,7 @@ img.lazy-image.loaded {
 }
 
 .services-section .row .service-block .inner-box:before {
-  content: "0"counter(slides-num) "";
+  content: "0" counter(slides-num) "";
   position: absolute;
   left: 45px;
   top: 50px;
@@ -4349,7 +4374,7 @@ img.lazy-image.loaded {
 ***/
 .we-do-section {
   position: relative;
-  padding: 240px 0px 90px;
+  padding: 100px 0px 90px;
   background: #ffffff url(../images/background/pattern-2.png) left top repeat;
 }
 
@@ -4510,7 +4535,7 @@ img.lazy-image.loaded {
 
 .accordion-box .block .acc-btn {
   position: relative;
-  font-size: 20px;
+  font-size: 24px !important;
   line-height: 32px;
   font-weight: 400;
   font-size: 20px;
@@ -5130,8 +5155,8 @@ img.lazy-image.loaded {
 
 .trusted-section .feature .sub-text {
   font-weight: 400;
-  font-size: 20px;
-  letter-spacing: 0.1em;
+  font-size: 24px;
+  /* letter-spacing: 0.1em; */
   color: var(--thm-text);
   text-transform: uppercase;
   line-height: 1.25em;
@@ -5211,7 +5236,7 @@ img.lazy-image.loaded {
   content: "\f107";
   font-family: "Flaticon";
   position: relative;
-  left: 0;
+  left: 10px;
   top: -1px;
   color: var(--thm-base);
   font-weight: 400;
@@ -5223,12 +5248,13 @@ img.lazy-image.loaded {
   content: "\f1e2";
   font-family: "Flaticon";
   position: relative;
-  left: 0;
+  left: 10px;
   top: -1px;
   color: red;
   font-weight: 400;
   font-size: 18px;
-  display: inline-block; /* Ensure it can be transformed */
+  display: inline-block;
+  /* Ensure it can be transformed */
 
   transform: rotate(45deg);
 }
@@ -6572,8 +6598,8 @@ img.lazy-image.loaded {
   padding: 0;
   z-index: 1;
   background-image: url(../images/background/we-do-section-bg-dark.jpg);
- 
-  
+
+
 }
 
 .call-to-section .shape-1 {
@@ -26464,4 +26490,47 @@ img.lazy-image.loaded {
 .megamenu-popup-active .main-header .other-links,
 .megamenu-popup-active .main-header .header-upper .logo-box {
   display: none;
+}
+
+.bottom-navbar {
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  left: 10px;
+  height: auto;
+  background-color: #1c1e22;
+  /* background: var(--thm-base); */
+  font-size: 14px;
+  line-height: 44px;
+  text-align: center;
+  z-index: 100;
+  cursor: pointer;
+  padding-block: 13px;
+  border: 1px solid var(--thm-base);
+  border-radius: 8px;
+  /* box-shadow: 0 1px 50px rgba(255, 255, 255, 0.1) */
+  box-shadow: 1px 0px 76px -7px rgba(0,0,0,0.8);
+  -webkit-box-shadow: 1px 0px 76px -7px rgba(0,0,0,0.8);
+  -moz-box-shadow: 1px 0px 76px -7px rgba(0,0,0,0.8);
+
+  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
+  /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+  /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+
+}
+
+
+.main-menu-mob .navigation>li>a {
+  position: relative;
+  display: block;
+  text-align: center;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 500;
+  color: var(--thm-base);
+  /* color: black; */
+  opacity: 1;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
 }
