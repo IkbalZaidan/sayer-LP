@@ -2,230 +2,169 @@
 <html lang="en">
 
 <head>
-    <!-- ========== Meta Tags ========== -->
     <meta charset="utf-8">
+    <title>Sayer</title>
+    <!-- Stylesheets -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Teko:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/owl.css" rel="stylesheet">
+    <link href="css/flaticon.css" rel="stylesheet">
+    <link href="css/linoor-icons-2.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/jquery-ui.css" rel="stylesheet">
+    <link href="css/jquery.fancybox.min.css" rel="stylesheet">
+    <link href="css/hover.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/jarallax.css">
+    <link href="css/custom-animate.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- rtl css -->
+    <link href="css/rtl.css" rel="stylesheet">
+    <!-- Responsive File -->
+    <link href="css/responsive.css" rel="stylesheet">
+
+    <!-- Color css -->
+    <link rel="stylesheet" id="jssDefault" href="css/colors/color-3.css">
+
+    <link rel="shortcut icon" href="images/favicon.png" id="fav-shortcut" type="image/x-icon">
+    <link rel="icon" href="images/logo/png/logo6light.png" id="fav-icon" type="image/x-icon">
+
+    <!-- Responsive Settings -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Urane - Insurance Company HTML Template ">
-
-    <!-- ========== Page Title ========== -->
-    <title>Sayer </title>
-
-    <!-- ========== Favicon Icon ========== -->
-    <link rel="shortcut icon" href="assets/img/logo/png/logo6light.png" type="image/x-icon">
-
-    <!-- ========== Start Stylesheet ========== -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-    <link href="assets/css/magnific-popup.css" rel="stylesheet">
-    <link href="assets/css/swiper-bundle.min.css" rel="stylesheet">
-    <link href="assets/css/animate.min.css" rel="stylesheet">
-    <link href="assets/css/validnavs.css" rel="stylesheet">
-    <link href="assets/css/helper.css" rel="stylesheet">
-    <link href="assets/css/unit-test.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
-    <!-- ========== End Stylesheet ========== -->
-
-    <!--[if lte IE 9]>
-        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-    <![endif]-->
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
 </head>
 
-<body>
+<body class="body-dark">
 
-    <!-- Start Preloader 
-    ============================================= -->
-    <div id="preloader">
-        <div class="urane-loader-inner">
-            <div class="urane-loader">
-                <span class="urane-loader-item"></span>
-                <span class="urane-loader-item"></span>
-                <span class="urane-loader-item"></span>
-                <span class="urane-loader-item"></span>
-                <span class="urane-loader-item"></span>
-                <span class="urane-loader-item"></span>
-                <span class="urane-loader-item"></span>
-                <span class="urane-loader-item"></span>
-            </div>
+    <div class="page-wrapper">
+
+        <!-- Preloader -->
+        <div class="preloader">
+            <div class="icon"></div>
         </div>
-    </div>
-    <!-- preloader end -->
 
-    <!-- Header 
-    ============================================= -->
-    <header id="home">
-        <!-- Start Navigation -->
-        <nav class="navbar mobile-sidenav navbar-sticky box-style-one navbar-box logo-less validnavs">
+        <!-- Main Header -->
+        <header class="main-header header-style-one">
 
-            <!-- Start Top Search -->
-            <div class="top-search">
-                <div class="container-xl">
-                    <div class="input-group">
-                        <span class="input-group-addon"><i class="fa fa-search"></i></span>
-                        <input type="text" class="form-control" placeholder="Search">
-                        <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
-                    </div>
-                </div>
-            </div>
-            <!-- End Top Search -->
-
-
-            <div class="container nav-box d-flex justify-content-between align-items-center">
-
-                <!-- Start Header Navigation -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-                        <i class="fa fa-bars"></i>
-                    </button>
-                    <a class="navbar-brand smooth-menu" href="#home">
-                        <img src="assets/img/logo/png/logo6light.png" class="logo logo-display" alt="Logo">
-                        <!-- <img src="assets/img/logo/png/logo6light.png" class="logo logo-scrolled" alt="Logo"> -->
-                    </a>
-                </div>
-                <!-- End Header Navigation -->
-
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="navbar-menu">
-
-                    <img src="assets/img/logo/png/logo3.png" alt="Logo" width="10%">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-                        <i class="fa fa-times"></i>
-                    </button>
-
-                    <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-
-                        <li><a class="smooth-menu" href="#quote">لمحة</a></li>
-                        <li><a class="smooth-menu" href="#videoSec">فيديو تعريفي </a></li>
-                        <li><a class="smooth-menu" href="#history">المنصات </a></li>
-                        <li><a class="smooth-menu" href="#quote2">استخدام الخلطة </a></li>
-                        <li><a class="smooth-menu" href="#quote3">تسجيل </a></li>
-                        <li><a class="smooth-menu" href="#footerSec">تواصل معنا </a></li>
-                    </ul>
-                </div><!-- /.navbar-collapse -->
-
-                <div class="attr-right">
-                    <!-- Start Atribute Navigation -->
-                    <!-- <div class="attr-nav attr-box">
-                        <ul>
-                            <li class="search"><a href="#"><i class="far fa-search"></i></a></li>
-                            <li class="side-menu">
-                            <a href="#">
-                                <span class="bar-1"></span>
-                                <span class="bar-2"></span>
-                                <span class="bar-3"></span>
-                            </a>
-                        </li>
-                        </ul>
-                    </div> -->
-                    <!-- End Atribute Navigation -->
-                </div>
-
-                <!-- Start Side Menu -->
-                <div class="side">
-                    <a href="#" class="close-side"><i class="fas fa-times"></i></a>
-                    <div class="widget">
+            <!-- Header Upper -->
+            <div class="header-upper">
+                <div class="inner-container clearfix">
+                    <!--Logo-->
+                    <div class="logo-box">
                         <div class="logo">
-                            <img src="assets/img/logo/png/logo6light.png" alt="Logo">
-                        </div>
-                        <p>
-                            Arrived compass prepare an on as. Reasonable particular on my it in sympathize. Size now
-                            easy eat hand how. Unwilling he departure elsewhere dejection at. Heart large seems may
-                            purse means few blind.
-                        </p>
-                    </div>
-                    <div class="widget address">
-                        <div>
-                            <ul>
-                                <li>
-                                    <div class="content">
-                                        <p>Address</p>
-                                        <strong>California, TX 70240</strong>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="content">
-                                        <p>Email</p>
-                                        <strong>support@validtheme.com</strong>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="content">
-                                        <p>Contact</p>
-                                        <strong>+44-20-7328-4499</strong>
-                                    </div>
-                                </li>
-                            </ul>
+                            <a href="index.html" title="sayer"><img src="images/logo/png/logo3.png" alt="logo"
+                                    title="sayer">
+                            </a>
                         </div>
                     </div>
-                    <div class="widget newsletter">
-                        <h4 class="title">Get Subscribed!</h4>
-                        <form action="#">
-                            <div class="input-group stylish-input-group">
-                                <input type="email" placeholder="Enter your e-mail" class="form-control" name="email">
-                                <span class="input-group-addon">
-                                    <button type="submit">
-                                        <i class="fas fa-arrow-right"></i>
-                                    </button>
-                                </span>
+                    <div class="nav-outer clearfix">
+                        <!--Mobile Navigation Toggler-->
+                        <div class="mobile-nav-toggler"><span class="icon flaticon-menu-2"></span><span
+                                class="txt">Menu</span></div>
+
+                        <!-- Main Menu -->
+                        <nav class="main-menu navbar-expand-md navbar-light">
+                            <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+                                <ul class="navigation clearfix">
+                                    <li class="dropdown megamenu megamenu-clickable megamenu-clickable--toggler"><a
+                                            href="index-main.html">الرئيسية</a>
+                                    </li>
+                                    <li class="scrollToLink">
+                                        <a href="#video-about">فيديو تعريفي</a>
+                                    </li>
+                                    <li class="scrollToLink">
+                                        <a href="#about-me">من ساير</a>
+                                    </li>
+                                    <li class="scrollToLink">
+                                        <a href="#using">استخدام الخلطة</a>
+                                    </li>
+                                    <!-- <li class="scrollToLink">
+                                        <a href="portfolio.html">تسجيل</a>
+                                    </li> -->
+                                    <li class="scrollToLink">
+                                        <a href="#faq">الأسئلة الشائعة</a>
+
+                                    </li>
+
+                                </ul>
                             </div>
-                        </form>
-                    </div>
-                    <div class="widget social">
-                        <ul class="link">
-                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="#"><i class="fab fa-behance"></i></a></li>
-                        </ul>
+                        </nav>
                     </div>
 
                 </div>
-                <!-- End Side Menu -->
-
             </div>
-            <!-- Overlay screen for menu -->
-            <div class="overlay-screen"></div>
-            <!-- End Overlay screen for menu -->
+            <!--End Header Upper-->
 
-        </nav>
-        <!-- End Navigation -->
-    </header>
-    <!-- End Header -->
+        </header>
+        <!-- End Main Header -->
 
-    <!-- Start Banner Area 
-    ============================================= -->
-    <div class="banner-area banner-style-one navigation-circle navigation-left-center overflow-hidden text-light">
-        <!-- Slider main container -->
-        <div class="banner-fade">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
+        <!--Mobile Menu-->
+        <div class="side-menu__block">
 
-                <!-- Single Item -->
-                <div class="swiper-slide bg-cover" style="background: url(assets/img/sayer2024/sayer4.jpg);">
-                    <div class="item">
-                        <div class="container">
+
+            <div class="side-menu__block-overlay custom-cursor__overlay">
+                <div class="cursor"></div>
+                <div class="cursor-follower"></div>
+            </div><!-- /.side-menu__block-overlay -->
+            <div class="side-menu__block-inner ">
+                <div class="side-menu__top justify-content-end">
+
+                    <a href="#" class="side-menu__toggler side-menu__close-btn"><img src="images/icons/close-1-1.png"
+                            alt=""></a>
+                </div><!-- /.side-menu__top -->
+
+
+                <nav class="mobile-nav__container">
+                    <!-- content is loading via js -->
+                </nav>
+                <div class="side-menu__sep"></div><!-- /.side-menu__sep -->
+                <div class="side-menu__content">
+                    <p>Linoor is a premium Template for Digital Agencies, Start Ups, Small Business and a wide range of
+                        other agencies.</p>
+                    <p><a href="mailto:needhelp@linoor.com">needhelp@linoor.com</a> <br> <a href="tel:888-999-0000">888
+                            999 0000</a></p>
+                    <div class="side-menu__social">
+                        <a href="#"><i class="fab fa-facebook-square"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div><!-- /.side-menu__content -->
+            </div><!-- /.side-menu__block-inner -->
+        </div><!-- /.side-menu__block -->
+
+        <!-- Banner Section -->
+        <section class="banner-section banner-one" >
+
+
+
+            <div class="banner-carousel owl-theme owl-carousel">
+                <!-- Slide Item -->
+                <div class="slide-item">
+                    <div class="image-layer" style="background-image: url(images/sayer2024/sayer4.jpg);"></div>
+                    <!-- <div class="left-top-line"></div> -->
+                    <div class="right-bottom-curve"></div>
+                    <div class="right-top-curve"></div>
+                    <div class="auto-container">
+                        <div class="content-box">
                             <div class="content">
-                                <div class="row align-items-center">
-                                    <div class="col-xl-7 col-lg-8 col-md-11">
-                                        <h4>نحو الـ 100 ألف: استراتيجيات وخطط </h4>
-                                        <h2>تعلم طبخ محتوى مؤثر،
-                                            <br> لتشعل النار في المنصات
-                                        </h2>
-                                        <div class="row mt-40">
-                                            <div class="col-auto button">
-                                                <a class="btn btn-theme btn-md animation"
-                                                    href="https://calendly.com/sayer_consultation/meet-with-me">رابط
-                                                    الحجز</a>
-                                            </div>
-                                            <!-- <div class="col-auto button">
-                                                <a class="btn btn-theme btn-md animation"
-                                                    href="https://tally.so/r/meEr50">رابط النموذج</a>
-                                            </div> -->
-
-                                        </div>
-
+                                <div class="inner">
+                                    <div class="sub-title">استشارة لمدة ساعة
+                                    </div>
+                                    <h1>انطلق نحو الـ 100 
+                                        <br>
+                                          ألف متابع
+                                    </h1>
+                                    <div class="link-box">
+                                        <a class="theme-btn btn-style-one" href="about.html">
+                                            <i class="btn-curve"></i>
+                                            <span class="btn-title">احجز الآن</span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -234,610 +173,609 @@
                 </div>
 
             </div>
-
-        </div>
-    </div>
-    <!-- End Banner -->
+        </section>
+        <!--End Banner Section -->
 
 
-    <!-- Start Quote 
-    ============================================= -->
-    <div id="quote" class="quote-style-one default-padding bg-gray bg-cover">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-7 col-lg-12">
-                    <h4 class="sub-title">لمحة
-                    </h4>
-                    <h2 class="title split-text">
-                        من هو ساير العتيبي؟
-                        <br>
-                        وكيف بدأت خلطة ال 100 ألف؟
-                    </h2>
-                    <br>
-                    <p class="quote-style-one-text">
-                        صانع محتوى إبداعي على مختلف المنصات مثل يوتيوب، إنستغرام، وتيك توك.
-                        <br>
-
-                        أنتج وأقدّم بودكاست <span style="font-weight: bold;">روايتهم</span> الّذي حصد في موسمه الأول 7
-                        ملايين مشاهدة على مستوى الوطن العربي،
-                        <br>
-                        والآن يعرض على طيران الكويتية!
-                        <br>
-                        بالإضافة إلى إنتاجي لأكثر من 100 حلقة وثائقية تجاوزت مشاهداتها الـ 11 مليون.
-                    </p>
-                </div>
-                <div class="col-xl-5 col-lg-12 thumb-two pl-50 pl-md-15 pl-xs-15">
-                    <div class="thumb-style-two">
-                        <img src="assets/img/sayer2024/sayer3.jpg" alt="Image Not Found">
+        <!--Live Section-->
+        <section class="live-section live-section__dark" id="video-about">
+            <div class="auto-container">
+                <!-- <div class="sec-title centered">
+                    <h2>Experience us live<span class="dot">.</span></h2>
+                </div> -->
+                <div class="main-image-box">
+                    <div class="image-layer" style="background-image: url(images/12.png);"></div>
+                    <div class="inner clearfix">
+                        <div class="round-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <div class="round-inner">
+                                <div class="vid-link">
+                                    <a href="https://www.youtube.com/watch?v=Get7rqXYrbQ" class="lightbox-image">
+                                        <div class="icon"><span class="flaticon-play-button-1"></span><i
+                                                class="ripple"></i></div>
+                                    </a>
+                                </div>
+                                <div class="title">
+                                    <h3>agency that gets <br>excited about</h3>
+                                </div>
+                                <!-- <div class="more-link"><a href="about.html">Read More</a></div> -->
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <!-- End Quote -->
+        </section>
 
-
-
-    <!-- Start Video 
-    ============================================= -->
-    <div id="videoSec" class="video-area bg-cover mix-blend-theme" style="background-image: url(assets/img/12.png);">
-        <div class="shape-left-top">
-            <img src="assets/img/shape/43.png" alt="Image Not Found">
-        </div>
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xl-6 col-lg-8">
-                    <div class="video-content text-center text-light">
-                        <!-- <h2 class="split-text">We provide insurance for your future</h2> -->
-                        <a href="assets/img/sayer2020/video1.mov" class="popup-youtube video-play-button"><i
-                                class="fas fa-play"></i></a>
+        <!--About Section-->
+        <section class="about-section about-section__dark mt-5" id="about-me">
+            <div class="auto-container">
+                <div class="row clearfix">
+                    <!--Image Column-->
+                    <div class="image-column col-xl-6 col-lg-12 col-md-12 col-sm-12">
+                        <div class="inner">
+                            <div class="image-block wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms"><img
+                                    src="images/sayer2024/sayer3.jpg" alt=""></div>
+                            <!-- <div class="image-block wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms"><img
+                                    src="images/sayer2024/sayer official.jpg"></div> -->
+                        </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Video -->
+                    <!--Text Column-->
+                    <div class="text-column col-xl-6 col-lg-12 col-md-12 col-sm-12">
+                        <div class="inner">
+                            <div class="sec-title">
+                                <h2>من ساير العتيبي؟
+                                </h2>
+                                <div class="lower-text">
+                                    صانع محتوى إبداعي على مختلف المنصات مثل يوتيوب، إنستغرام، وتيك توك.
 
-    <!-- Start Why Choose Us 
-    ============================================= -->
-    <div class="choose-us-style-one-area default-padding">
-        <div class="container">
-            <div class="choose-us-style-one-items">
-                <div class="shape">
-                    <img src="assets/img/shape/banner-14.jpg" alt="Image Not Found">
-                </div>
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="about-style-one-info">
-                            <h4 class="sub-title">
-                                خبراتي
-                            </h4>
-                            <!-- <h4 class="title split-text">description</h4> -->
-                            <p class="quote-style-one-text">
-                                أمتلك خبرة تمتد لأكثر من أربع سنوات في إنتاج المحتوى وإدارة الحملات التسويقية.
-                                <br>
-                                أتميز
-                                بمهارات فريدة في مجالات التسويق بالمحتوى، واستخدام الذكاء الاصطناعي، وإنتاج الوثائقيات
-                                والبودكاست.
-                                <br>
-                                خلال مسيرتي المهنية، تعاونت مع شركات رائدة في مختلف القطاعات، بما في ذلك القطاع البنكي
-                                والتكنولوجي وقطاع الطيران، بالإضافة إلى العديد من القطاعات الأخرى.
-
-
-                            </p>
-                            <div class="feature-style-one-items text-light">
-                                <div class="feature-style-one-item animate" data-animate="fadeInUp">
-                                    <img src="assets/img/icon/51.png" alt="Image Not Found">
-                                    <h4>خطط واستراتيجيات ناجحة</h4>
-                                    <p>
-                                        تحكم في استراتيجيتك واكتشف الطرق المثلى لإدارة محتواك والتفاعل مع جمهورك.
-
-                                    </p>
-                                </div>
-                                <div class="feature-style-one-item animate" data-animate="fadeInUp" data-delay="100ms">
-                                    <img src="assets/img/icon/50.png" alt="Image Not Found">
-                                    <h4>استثمار ذكي
-                                    </h4>
-                                    <p>
-                                        تعلم كيف تستخدم مواردك بشكل فعال لتحقيق أكبر قدر من الفائدة والمتابعين.
-
-                                    </p>
-                                </div>
-                                <div class="feature-style-one-item animate" data-animate="fadeInUp" data-delay="200ms">
-                                    <img src="assets/img/icon/49.png" alt="Image Not Found">
-                                    <h4>خطوات سهلة وفعالة
-                                    </h4>
-                                    <p>
-                                        ابدأ ببناء جمهورك اليوم بخطوات سهلة وفعالة لتحقيق أهدافك بسرعة.
-
-                                    </p>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 pl-80 pl-md-15 pl-xs-15">
-                        <div class="thumb">
-                            <img src="assets/img/sayer2024/sayer2.png" alt="Image Not Found">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Why Choose Us -->
-
-    <!-- Start History
-    ============================================= -->
-    <div id="history" class="history-style-one-area default-padding bg-dark text-light bg-cover"
-        style="background-image: url(assets/img/shape/38.jpg);">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-8 col-12 ">
-                    <div class="site-heading text-center">
-                        <!-- <h4 class="sub-title"> أرقام المنصات
-                        </h4> -->
-                        <h2 class="title split-text">أرقام المنصات</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="history-fun-facts text-center">
-                <div class="row">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="fun-fact">
-                            <!-- <p>
-                                اليوتيوب
-                            </p> -->
-                            <div class="icon">
-                                <img src="assets/img/icon/youtube.png" alt="Image Not Fouq">
+                            <div class="text">
+                                <p>
+                                    أنتج وأقدّم بودكاست روايتهم الّذي حصد في موسمه الأول 7 ملايين مشاهدة على مستوى الوطن
+                                    العربي، والآن يعرض على طيران الكويتية!
+                                    بالإضافة إلى إنتاجي لأكثر من 100 حلقة وثائقية تجاوزت مشاهداتها الـ 11 مليون.
+                                </p>
                             </div>
-
-                            <div class="counter">
-                                <div class="timer" data-to="30" data-speed="3000">30</div>
-                                <div class="operator"> مليون مشاهدة</div>
-
+                            <div class="text clearfix">
+                                <ul>
+                                    <li>Suspe ndisse suscipit sagittis leo.</li>
+                                    <li>Entum estibulum dignissim posuere.</li>
+                                    <li>If you are going to use a passage.</li>
+                                </ul>
+                                <div class="since"><span class="txt">منذ <br>2008</span></div>
                             </div>
-
-                            <div class="counter">
-                                <div class="timer" data-to="280" data-speed="3000">280</div>
-                                <div class="operator"> ألف مشترك</div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="fun-fact">
-                            <!-- <p>
-                                اليوتيوب
-                            </p> -->
-                            <div class="icon">
-                                <img src="assets/img/icon/instagram.png" alt="Image Not Fouq">
-                            </div>
-
-                            <div class="counter">
-                                <div class="timer" data-to="185" data-speed="3000">185</div>
-                                <div class="operator">ألف متابع</div>
-
-                            </div>
-
-                            <div class="counter">
-                                <!-- <div class="timer" data-to="280" data-speed="3000">280</div> -->
-                                <div class="operator"> معدل مشاهدة الريلز 100 ألف و ال 3 ملايين</div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="fun-fact">
-                            <!-- <p>
-                                اليوتيوب
-                            </p> -->
-                            <div class="icon">
-                                <img src="assets/img/icon/tik-tok.png" alt="Image Not Fouq">
-                            </div>
-
-                            <div class="counter">
-                                <div class="timer" data-to="140" data-speed="3000">140</div>
-                                <div class="operator"> مليون مشاهدة</div>
-
-                            </div>
-
-                            <div class="counter">
-                                <!-- <div class="timer" data-to="280" data-speed="3000">280</div> -->
-                                <div class="operator">معدل مشاهدات الفيديوهات 100 ألف إلى مليون
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End History -->
-    <!-- Start About 
-    ============================================= -->
-    <div id="quote2" class="quote-style-one default-padding bg-gray bg-cover"
-        style="background-image: url(assets/img/shape/banner-3.jpg);">
-        <div class="container">
-            <div class="about-style-one-item">
-                <div class="row justify-content-around">
-                    <div class="col-lg-4" style="text-align:-webkit-center;">
-                        <div class="fun-fact-title">
-                            قبل استخدام خلطة الـ 100 ألف
-                        </div>
-                        <div class="about-style-one-card">
-                            <div class="fun-fact-card">
-                            </div>
-
-                            <ul class="list-uncheck">
-                                <li> عدم وجود أرباح </li>
-                                <li>عدم وجود تفاعل
-                                </li>
-                                <li>عدم وجود متابعين
-                                </li>
-                                <li>عدم انتشار الهوية الشخصية التجارية
-                                </li>
-                                <li>عدم وجود عملاء
-                                </li>
-                                <li>عدم وجود وقت كافي
-                                </li>
-
-                            </ul>
-
-                        </div>
-
-                    </div>
-                    <div class="col-lg-4 text-center" style="align-items: center !important;">
-                        <div class="fun-fact-icon">
-                            <span class="fa fa-arrow-left"></span>
-                        </div>
-
-                    </div>
-                    <div class="col-lg-4 " style="text-align:-webkit-center;">
-                        <div class="fun-fact-title">
-                            بعد استخدام خلطة الـ 100 ألف
-                        </div>
-                        <div class="about-style-one-card">
-                            <div class="fun-fact-card">
-
-                            </div>
-                            <ul class="list-check">
-                                <li>زيادة عدد المتابعين</li>
-                                <li>تفاعل مستمر</li>
-                                <li>تحقيق أرباح </li>
-                                <li>انتشار واسع للهوية الشخصية التجارية</li>
-                                <li>إتمام صفقات مع عملاء </li>
-                                <li> وجود وقت كافٍ </li>
-
-                            </ul>
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End About
-
-
-
-    ============================================= -->
-    <div id="process" class="process-style-one-area text-center default-padding">
-        <!-- <div class="container">
-            <div class="site-heading text-center">
-                <div class="row">
-                    <div class="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2">
-                        <h4 class="sub-title"><img src="assets/img/icon/14.png" alt="Image Not Found"> ماذا يحصل داخل الإستشارة؟
-                            ما هو الهدف الرئيسي؟
-                            لمن استشارة ساير العتيبي؟
-                        </h4>
-                        <h2 class="title split-text">Steps of the recruitment work process</h2>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 process-style-one">
-                    <div class="process-style-one-item">
-                        <div class="thumb animate" data-animate="fadeInUp">
-                            <img src="assets/img/icon/target.png" alt="Image Not Found">
-                            <!-- <span>01</span> -->
-                        </div>
-                        <div class="content">
-                            <h4>الهدف الرئيسي</h4>
-                            <ul>
-                                <li>زيادة عدد المتابعين
-                                </li>
-                                <li>تحقيق تفاعل مستمر
-                                </li>
-                                <li>زيادة الأرباح
-                                </li>
-                                <li>انتشار واسع للهوية الشخصية التجارية
-                                </li>
-                                <li>إتمام صفقات ناجحة مع عملاء جدد
-                                </li>
-                                <li>إدارة وقتك بفعالية وكفاءة
-                                </li>
-
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 process-style-one">
-                    <div class="process-style-one-item">
-                        <div class="thumb animate" data-animate="fadeInDown" data-delay="100ms">
-                            <img src="assets/img/icon/question.png" alt="Image Not Found">
-                            <!-- <span>02</span> -->
-                        </div>
-                        <div class="content">
-                            <h4>ماذا يحدث داخل الاستشارة (ساعة واحدة)؟
-                            </h4>
-                            <p>خلال ساعة واحدة، سنقوم بتحليل مشروعك بدقة، كشف الأخطاء وتوضيح الحلول. سنعمل على بناء أو
-                                تحسين استراتيجيتك الحالية، ونراجع كل خطوة لضمان أنك تسير في الطريق الصحيح لبناء محتوى
-                                تفاعلي. سأرد على جميع أسئلتك وأقدم نصائح عملية تساعدك في الوصول إلى أهدافك، لتبدأ بتحقيق
-                                أول 100 ألف متابع.
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 process-style-one">
-                    <div class="process-style-one-item">
-                        <div class="thumb animate" data-animate="fadeInUp" data-delay="300ms">
-                            <img src="assets/img/icon/people.png" alt="Image Not Found">
-                            <!-- <span>03</span> -->
-                        </div>
-                        <div class="content">
-                            <h4>لمن استشارة ساير العتيبي؟
-                            </h4>
-                            <p>هل أنت صاحب مشروع صغير أو متوسط تبحث عن طرق فعالة لتسويق وتطوير مشروعك؟ هل تريد جذب
-                                المزيد من الرعاة أو المتابعين؟ إذا كنت صانع محتوى أو فريلانسر تبحث عن زيادة دخلك وتوسيع
-                                نطاق عملك، فإن استشارتي هي ما تحتاجه لتحقيق ذلك.
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- <div class="row">
-                <div class="col-lg-12">
-                    <form class="short-newsletter" action="#">
-                        <input type="email" placeholder="Enter your emial address here" class="form-control"
-                            name="email">
-                        <button type="submit"> Get a quote</button>
-                    </form>
-                </div>
-            </div> -->
-        </div>
-    </div>
-    <!-- End Process -->
-
-    <div id="quote3" class="estimate-style-two-area pt-5 pb-5 bg-half-bottom-light bg-cover overflow-hidden">
-
-        <div class="container">
-
-            <div class="estimate-two-box">
-                <div class="row justify-content-center">
-                    <!-- <div class="col-lg-6">
-                        <img class="animate" data-animate="fadeInUp" src="assets/img/thumb/2.jpg" alt="Image Not Found">
-                    </div> -->
-                    <div class="col-lg-6">
-                        <div class="quote-form-style-two">
-
-                            <div class="tab-content" id="myTabContent">
-                                <div class="tab-pane fade show active" id="tabs_1" role="tabpanel"
-                                    aria-labelledby="tab_1">
-                                    <form action="#" class="quote-style-two">
-                                        <div class="row">
-                                            <div class="col-lg-6">
-                                                <div class="form-group">
-                                                    <label for="name">الاسم</label>
-                                                    <input class="form-control" id="name" name="name"
-                                                        placeholder="" type="text">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="form-group">
-                                                    <label for="phone">الرقم</label>
-                                                    <input class="form-control" id="phone" name="phone"
-                                                        placeholder="" type="text">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <div class="form-group">
-                                                    <label for="email">البريد الإلكتروني
-                                                    </label>
-                                                    <input class="form-control" id="email" name="email"
-                                                        placeholder="" type="email">
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <button type="submit" name="submit" id="submit">
-                                                    أرسل
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- Start Newsletter Area 
-    ============================================= -->
-    <div class="newsletter-area bg-theme text-light" style="background-image: url(assets/img/shape/4.png);">
-        <div class="container">
-            <!-- <div class="row justify-content-center">
-                <div class="col-lg-2">
-                    <a href="">رابط تعبئة النموذج</a>
-                </div>
-                <div class="col-lg-2">
-                    <a href="">رابط الحجز</a>
-                </div>
-            </div> -->
-        </div>
-    </div>
-    <!-- End Newsletter Area -->
-
-
-    <!-- Start Footer 
-    ============================================= -->
-    <footer id="footerSec" class="bg-dark footer-one text-light" style="background-image: url(assets/img/shape/27.png);">
-        <div class="container">
-            <div class="footer-style-one">
-
-                <div class="row justify-content-between">
-                    <!-- Singel Item -->
-                    <div class="col-lg-4 col-md-12 footer-item mt-50">
-                        <div class="f-item about">
-
-                            <br>
-                            <br>
-                            <div class="logo">
-                                <img src="assets/img/logo/png/logo3.png" alt="Image Not Found">
-                            </div>
-                            <br>
-                            <br>
-
-                            <h5>
-                                شكرًا لزيارة موقع الاستشارة
-                                وأتمنى أن تكون حصلت على أقصى استفادة
-
-                            </h5>
-                            <!-- <p>شكرًا لزيارتك موقعي الإلكتروني
-                                وأتمنّى أن تكون حصلت على أقصى استفادة</p> -->
-
-                            <div class="button mt-50">
-                                <a class="btn btn-theme btn-md animation"
-                                    href="https://sayer-content.com/">الموقع الرسمي
+                            <div class="link-box">
+                                <a class="theme-btn btn-style-one" href="about.html">
+                                    <i class="btn-curve"></i>
+                                    <span class="btn-title">احجز معي الآن</span>
                                 </a>
                             </div>
-                            <!-- <div class="button mt-40">
-                                <a class="btn btn-theme btn-md animation"
-                                    href="https://calendly.com/sayer_consultation/meet-with-me">رابط
-                                    الحجز</a>
-                            </div> -->
-                            <br>
-                            <br>
                         </div>
                     </div>
-                    <!-- End Singel Item -->
+                </div>
+            </div>
+        </section>
 
-                    <!-- Singel Item -->
-                    <div class="col-lg-4 col-md-8 mt-50 footer-item">
-
-                        <div class="f-item link">
-                            <h4 class="widget-title">للتواصل</h4>
-                            <p style="margin-inline-end: 30px;">في حال كان لديك أمر مستعجل بإمكانك التواصل مع فريق العمل
-                                بشكل مباشر على الرقم
-                            </p>
-                            <ul>
-                                <li style="direction: ltr;">
-                                    <a href="tel:0096541444884">+965 41 444 884</a>
+        <!-- Gallery Section -->
+        <section class="gallery-section gallery-section__dark" >
+            <div class="auto-container">
+                <!--MixitUp Galery-->
+                <div class="mixitup-gallery">
+                    <div class="upper-row clearfix">
+                        <!-- <div class="sec-title">
+                            <h2>الانجازات</h2>
+                        </div> -->
+                        <!--Filter-->
+                        <!-- <div class="filters clearfix">
+                            <ul class="filter-tabs filter-btns clearfix">
+                                <li class="active filter" data-role="button" data-filter="all">All<sup>[6]</sup></li>
+                                <li class="filter" data-role="button" data-filter=".branding">Branding<sup>[3]</sup>
                                 </li>
-                                <li>
-                                    <a href="mailto:sayer@aware-media.com">sayer@aware-media.com</a>
-                                </li>
-
-                            </ul>
-                        </div>
-
-                    </div>
-                    <!-- End Singel Item -->
-
-                    <!-- Singel Item -->
-                    <div class="col-lg-4 col-md-12 footer-item  mt-50">
-                        <div class="f-item contact">
-                            <h4 class="widget-title">تابعني على</h4>
-                            <ul>
-                                <li>
-                                  
-                                    <div class="content">
-                                        <a href="https://www.instagram.com/sayeralotaibi?igsh=MThjcWk5c2RiNDN5bg%3D%3D&utm_source=qr" target="_blank">
-                                            <i class="fab fa-instagram"></i>
-                                            انستغرام</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    
-                                    <div class="content">
-                                        <a href="https://www.youtube.com/@sayeralotaibi" target="_blank">
-                                            <i class="fab fa-youtube"></i>
-                                            يوتيوب</a>
-                                    </div>
-                                </li>
-                                <li>
-                                 
-                                    <div class="content">
-                                        <a href="https://www.tiktok.com/@sayerkh?_t=8k7j7l9ooX5&_r=1" target="_blank"> 
-                                            
-                                            <i class="fab fa-tiktok"></i>
-                                            تيك توك</a>
-                                    </div>
+                                <li class="filter" data-role="button" data-filter=".illustration">
+                                    illustration<sup>[3]</sup></li>
+                                <li class="filter" data-role="button" data-filter=".photography">
+                                    Photography<sup>[3]</sup></li>
+                                <li class="filter" data-role="button" data-filter=".web-design">Web Design<sup>[4]</sup>
                                 </li>
                             </ul>
+                        </div> -->
+                    </div>
+                    <div class="filter-list row">
+
+
+                        <!-- Gallery Item -->
+                        <div class="gallery-item mix all photography web-design col-md-12 col-12">
+                            <div class="inner-box">
+                                <figure class="image"><img src="images/sayer2024/youtube.png" alt=""></figure>
+                                <!-- <a href="https://www.youtube.com/@sayeralotaibi" target="_blank" class="lightbox-image overlay-box"
+                                    data-fancybox="gallery"></a> -->
+                                <!-- <div class="cap-box">
+                                    <div class="cap-inner">
+                                        <div class="cat"><span>Graphic</span></div>
+                                        <div class="title">
+                                            <h5><a href="portfolio-single.html">Fimlor Experience</a></h5>
+                                        </div>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+
+                        <!-- Gallery Item -->
+                        <div class="gallery-item mix all web-design col-md-7 col-12">
+                            <div class="inner-box">
+                                <figure class="image"><img src="images/sayer2024/insta.png" alt=""></figure>
+                                <!-- <a href="https://www.instagram.com/sayeralotaibi?igsh=MThjcWk5c2RiNDN5bg%3D%3D&utm_source=qr" target="_blank" class="lightbox-image overlay-box"
+                                    data-fancybox="gallery"></a> -->
+                                <!-- <div class="cap-box">
+                                    <div class="cap-inner">
+                                        <div class="cat"><span>Graphic</span></div>
+                                        <div class="title">
+                                            <h5><a href="portfolio-single.html">Fimlor Experience</a></h5>
+                                        </div>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+
+                        <!-- Gallery Item -->
+                        <div class="gallery-item mix all branding web-design col-md-5 col-12">
+                            <div class="inner-box">
+                                <figure class="image"><img src="images/sayer2024/tiktok.png" alt=""></figure>
+                                <!-- <a href="https://www.tiktok.com/@sayerkh?_t=8k7j7l9ooX5&_r=1" target="_blank" class="lightbox-image overlay-box"
+                                    data-fancybox="gallery"></a> -->
+                                <!-- <div class="cap-box">
+                                    <div class="cap-inner">
+                                        <div class="cat"><span>Graphic</span></div>
+                                        <div class="title">
+                                            <h5><a href="portfolio-single.html">Fimlor Experience</a></h5>
+                                        </div>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Funfacts Section -->
+        <section class="facts-section jarallax" data-jarallax data-speed="0.3" data-imgPosition="50% 80%">
+            <!-- <div class="image-layer" style="background-image: url(images/background/image-1.jpg);"></div> -->
+            <img src="images/12.png" alt="" class="jarallax-img">
+            <div class="auto-container">
+                <div class="inner-container">
+
+                    <!-- Fact Counter -->
+                    <div class="fact-counter">
+                        <div class="row clearfix">
+
+                            <!--Column-->
+                            <div class="column counter-column col-lg-3 col-md-6 col-sm-12">
+                                <div class="inner">
+                                    <div class="content">
+                                        <div class="count-outer count-box">
+                                            <span class="count-text" data-speed="4000" data-stop="8705">0</span>
+                                        </div>
+                                        <div class="counter-title">Projects Completed</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Column-->
+                            <div class="column counter-column col-lg-3 col-md-6 col-sm-12">
+                                <div class="inner">
+                                    <div class="content">
+                                        <div class="count-outer count-box alternate">
+                                            <span class="count-text" data-speed="3000" data-stop="480">0</span>
+                                        </div>
+                                        <div class="counter-title">Active clients</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Column-->
+                            <div class="column counter-column col-lg-3 col-md-6 col-sm-12">
+                                <div class="inner">
+                                    <div class="content">
+                                        <div class="count-outer count-box">
+                                            <span class="count-text" data-speed="3000" data-stop="626">0</span>
+                                        </div>
+                                        <div class="counter-title">cups of coffee</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Column-->
+                            <div class="column counter-column col-lg-3 col-md-6 col-sm-12">
+                                <div class="inner">
+                                    <div class="content">
+                                        <div class="count-outer count-box">
+                                            <span class="count-text" data-speed="4000" data-stop="9704">0</span>
+                                        </div>
+                                        <div class="counter-title">happy clients</div>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
-                    <!-- End Singel Item -->
-
 
                 </div>
             </div>
-        </div>
+        </section>
+        <!-- End Funfacts Section -->
 
-        <!-- Footer Bottom -->
-        <div class="footer-bottom text-light">
-            <div class="container">
-                <div class="text-center">
-                    <!-- <div class="col-12"> -->
-                    <p>
-                        © 2024 كل الحقوق محفوظة
-                    </p>
-                    <!-- </div> -->
+        <!-- Trusted Section -->
+        <section class="trusted-section trusted-section__dark" id="using">
+            <div class="auto-container">
+                <div class="outer-container">
+                    <div class="row clearfix">
+                        <div class="left-col col-xl-5 col-lg-6 col-md-12 col-sm-12">
+                            <div class="inner">
+                                <div class="col-header">
+                                    <div class="header-inner">
+                                        <span>خلطة الـ 100 ألف</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="right-col col-xl-7 col-lg-6 col-md-12 col-sm-12">
+                            <div class="inner">
+                                <div class="sec-title">
+                                    <h2>We’re trusted </h2>
+                                    <!-- <div class="lower-text">There are many variations of passages of Lorem Ipsum
+                                        available, but the majority have suffered alteration in some form, simply free
+                                        text by injected humour, or randomised.</div> -->
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="features">
+                                <div class="feature">
+                                    <div class="count"><span>قبل</span></div>
+                                    <h5>قبل استخدام خلطة الـ 100 ألف
+                                    </h5>
+                                    <div class="sub-text">
+                                        <div class="text">
+                                            <div class="row bafore-list">
+                                                <div class="col-4">
+                                                    <ul>
+                                                        <li> عدم وجود متابعين
+                                                        </li>
+                                                        <li>عدم وجود تفاعل</li>
+
+                                                    </ul>
+                                                </div>
+
+                                                <div class="col-4">
+                                                    <ul>
+                                                        <li> عدم وجود أرباح</li>
+                                                        <li> عدم وجود وقت كاف
+                                                        </li>
+
+                                                    </ul>
+                                                </div>
+
+                                                <div class="col-4">
+                                                    <ul>
+                                                        <li>عدم وجود أي عملاء
+                                                        </li>
+                                                        <li> عدم انتشار الهوية الشخصية التجارية
+                                                        </li>
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="feature">
+                                    <div class="count"><span>بعد</span></div>
+                                    <h5>بعد استخدام خلطة الـ 100 ألف
+                                    </h5>
+                                    <div class="sub-text">
+                                        <div class="text">
+                                            <div class="row after-list">
+                                                <div class="col-4">
+                                                    <ul>
+
+                                                        <li> زيادة عدد المتابعين
+                                                        </li>
+                                                        <li> تفاعل مستمر
+
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-4">
+                                                    <ul>
+
+                                                        <li> تحقيق أرباح
+                                                        </li>
+                                                        <li>وجود وقت كاف
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-4">
+                                                    <ul>
+                                                        <li> إتمام صفقات مع عملاء
+                                                        </li>
+
+                                                        <li> انتشار واسع للهوية الشخصية التجارية
+
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--We DO Section-->
+        <section class="we-do-section we-do-section__dark" id="faq">
+            <div class="auto-container">
+                <div class="row clearfix">
+                    <!--Left Column-->
+                    <div class="left-col col-lg-6 col-md-12 col-sm-12">
+                        <div class="inner">
+                            <div class="sec-title">
+                                <h2>الأسئلة الشائعة</h2>
+                            </div>
+                            <div class="faq-box">
+                                <ul class="accordion-box accordion-box__dark clearfix">
+                                    <!--Block-->
+                                    <li class="accordion block active-block">
+                                        <div class="acc-btn active"><span class="count">1.</span> ما الهدف الرئيسي من
+                                            الاستشارة؟
+                                        </div>
+                                        <div class="acc-content current">
+                                            <div class="content">
+                                                <div class="text">زيادة عدد المتابعين
+                                                    تحقيق تفاعل مستمر
+                                                    زيادة الأرباح
+                                                    انتشار واسع للهوية الشخصية التجارية
+                                                    إتمام صفقات ناجحة مع عملاء جدد
+                                                    إدارة وقتك بفعالية وكفاءة
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Right Column-->
+                    <div class="right-col col-lg-6 col-md-12 col-sm-12">
+                        <div class="inner">
+                            <div class="faq-box">
+                                <ul class="accordion-box accordion-box__dark clearfix">
+                                    <!--Block-->
+                                    <!-- <li class="accordion block active-block">
+                                        <div class="acc-btn active"><span class="count">1.</span> ما الهدف الرئيسي من الاستشارة؟
+                                        </div>
+                                        <div class="acc-content current">
+                                            <div class="content">
+                                                <div class="text">زيادة عدد المتابعين
+                                                    تحقيق تفاعل مستمر
+                                                    زيادة الأرباح
+                                                    انتشار واسع للهوية الشخصية التجارية
+                                                    إتمام صفقات ناجحة مع عملاء جدد
+                                                    إدارة وقتك بفعالية وكفاءة
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </li> -->
+
+                                    <!--Block-->
+                                    <li class="accordion block">
+                                        <div class="acc-btn"><span class="count">2.</span> ماذا يحدث داخل الاستشارة
+                                            (ساعة واحدة) ؟
+
+                                        </div>
+                                        <div class="acc-content">
+                                            <div class="content">
+                                                <div class="text">خلال ساعة واحدة، سنقوم بتحليل مشروعك بدقة، كشف الأخطاء
+                                                    وتوضيح الحلول. سنعمل على بناء أو تحسين استراتيجيتك الحالية، ونراجع
+                                                    كل خطوة لضمان أنك تسير في الطريق الصحيح لبناء محتوى تفاعلي. سأرد على
+                                                    جميع أسئلتك وأقدم نصائح عملية تساعدك في الوصول إلى أهدافك، لتبدأ
+                                                    بتحقيق أول 100 ألف متابع.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <!--Block-->
+                                    <li class="accordion block">
+                                        <div class="acc-btn"><span class="count">3.</span> لمن استشارة ساير العتيبي؟
+
+                                        </div>
+                                        <div class="acc-content">
+                                            <div class="content">
+                                                <div class="text">هل أنت صاحب مشروع صغير أو متوسط تبحث عن طرق فعالة
+                                                    لتسويق وتطوير مشروعك؟ هل تريد جذب المزيد من الرعاة أو المتابعين؟ إذا
+                                                    كنت صانع محتوى أو فريلانسر تبحث عن زيادة دخلك وتوسيع نطاق عملك، فإن
+                                                    استشارتي هي ما تحتاجه لتحقيق ذلك.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+
+
+                                    <li class="accordion block">
+                                        <div class="acc-btn"><span class="count">4.</span> كيف أسجل بالاستشارة؟
+                                        </div>
+                                        <div class="acc-content">
+                                            <div class="content">
+                                                <div class="text">بإمكانك ببساطة الضغط على زر التسجيل وكتابة اسمك وبريدك
+                                                    الإلكتروني ورقم التواصل.
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="accordion block">
+                                        <div class="acc-btn"><span class="count">5.</span>ما تكلفة الاستشارة؟
+
+                                        </div>
+                                        <div class="acc-content">
+                                            <div class="content">
+                                                <div class="text">
+                                                    التكلفة ألف درهم إماراتي للاستشارة لمدة ساعة واحدة.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Call To Section -->
+        <section class="call-to-section">
+            <div class="auto-container">
+                <div class="inner clearfix">
+                    <div class="shape-1 wow slideInRight" data-wow-delay="0ms" data-wow-duration="1500ms"></div>
+                    <div class="shape-2 wow fadeInDown" data-wow-delay="0ms" data-wow-duration="1500ms"></div>
+                    <h2>Let's Get Your Project <br>Started!</h2>
+                    <div class="link-box">
+                        <a class="theme-btn btn-style-two" href="about.html">
+                            <i class="btn-curve"></i>
+                            <span class="btn-title">احجز الآن</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- Main Footer -->
+        <footer class="main-footer">
+            <div class="auto-container">
+                <!--Widgets Section-->
+                <div class="widgets-section">
+                    <div class="row clearfix">
+
+                        <!--Column-->
+                        <div class="column col-md-6 col-12">
+                            <div class="footer-widget logo-widget">
+                                <div class="widget-content">
+                                    <div class="logo">
+                                        <a href="index.html"><img src="images/logo/png/logo3.png" alt="" /></a>
+                                    </div>
+                                    <div class="text">شكرًا لزيارة موقع الاستشارة وأتمنى أن تكون حصلت على أقصى استفادة
+                                    </div>
+                                    <ul class="social-links clearfix">
+                                        <li>
+                                            <a href="https://www.youtube.com/@sayeralotaibi">
+                                                <span class="fab fa-youtube"></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="https://www.instagram.com/sayeralotaibi?igsh=MThjcWk5c2RiNDN5bg%3D%3D&utm_source=qr">
+                                                <span class="fab fa-instagram"></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.tiktok.com/@sayerkh?_t=8k7j7l9ooX5&_r=1">
+                                                <span class="mb-1"> <img src="images/tik-tok.png" alt=""
+                                                        width="50%"></span>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Column-->
+                        <div class="column col-md-6 col-12">
+                            <div class="footer-widget info-widget">
+                                <div class="widget-content">
+                                    <h6>للتواصل</h6>
+                                    <p>
+                                        في حال كان لديك أمر مستعجل بإمكانك التواصل مع فريق العمل بشكل مباشر على الرقم
+                                    </p>
+                                    <ul class="contact-info">
+
+                                        <li><span class="icon flaticon-call"></span><a href="tel:0096541444884">+965 41 444
+                                                884</a></li>
+                                        <li><span class="icon flaticon-email-2"></span><a
+                                                href="mailto:sayer@aware-media.com">sayer@aware-media.com</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
 
                 </div>
             </div>
-        </div>
-        <!-- End Footer Bottom -->
-    </footer>
-    <!-- End Footer -->
 
-    <!-- jQuery Frameworks
-    ============================================= -->
-    <script src="assets/js/jquery-3.6.0.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/jquery.appear.js"></script>
-    <script src="assets/js/swiper-bundle.min.js"></script>
-    <script src="assets/js/progress-bar.min.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/js/magnific-popup.min.js"></script>
-    <script src="assets/js/count-to.js"></script>
-    <script src="assets/js/jquery.nice-select.min.js"></script>
-    <script src="assets/js/jquery.scrolla.min.js"></script>
-    <script src="assets/js/YTPlayer.min.js"></script>
-    <script src="assets/js/validnavs.js"></script>
-    <script src="assets/js/gsap.js"></script>
-    <script src="assets/js/ScrollTrigger.min.js"></script>
-    <script src="assets/js/rangeSlider.min.js"></script>
-    <script src="assets/js/jquery-ui.min.js"></script>
-    <script src="assets/js/SplitText.min.js"></script>
-    <script src="assets/js/main.js"></script>
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="auto-container">
+                    <div class="inner clearfix">
+                        <div class="copyright">&copy; 2024 جميع الحقوق محفوظة</div>
+                    </div>
+                </div>
+            </div>
 
+        </footer>
+
+    </div>
+    <!--End pagewrapper-->
+
+    <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
+
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/TweenMax.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/jquery.fancybox.js"></script>
+    <script src="js/owl.js"></script>
+    <script src="js/mixitup.js"></script>
+    <script src="js/appear.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/jQuery.style.switcher.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.1.2/js.cookie.min.js">
+    </script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jarallax.min.js"></script>
+    <script src="js/custom-script.js"></script>
+
+    <!-- <script src="js/lang.js"></script> -->
+    <!-- <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> -->
+    <script src="js/color-switcher.js"></script>
 </body>
 
 </html>
