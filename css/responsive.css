@@ -195,7 +195,7 @@
   }
 
   .about-section .text-column .inner {
-    padding-left: 0;
+    padding-inline: 10px;
   }
 
   .about-section .image-column .inner:before {
@@ -465,6 +465,7 @@
   }
 
   .trusted-section {
+    padding-top: 10px;
     padding-bottom: 40px;
   }
 
@@ -528,8 +529,12 @@
   }
 
   .about-section .text-column .text .since {
-    margin-left: 40px;
-    margin-top: 20px;
+    margin-left: 40%;
+    margin-bottom: 30px;
+  }
+
+  .about-section .text-column .text .since:after{
+    display: none;
   }
 
   .live-section .main-image-box .round-inner {
@@ -568,7 +573,7 @@
   }
 
   .trusted-section .outer-container {
-    margin-top: 80px;
+    margin-top: 10px;
   }
 
   .fact-counter .column .inner {

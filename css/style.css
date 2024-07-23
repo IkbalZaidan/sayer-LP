@@ -68,7 +68,7 @@
 ====================================================================
 
  ***/
-* {
+ * {
   margin: 0px;
   padding: 0px;
   border: none;
@@ -303,7 +303,7 @@ figure {
   display: inline-block;
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  /* letter-spacing: 0.05em; */
   background: var(--thm-base);
   color: var(--thm-black);
   border-radius: 5px;
@@ -3958,7 +3958,7 @@ img.lazy-image.loaded {
 .about-section .text-column .inner {
   position: relative;
   display: block;
-  padding-left: 60px;
+  /* padding-left: 60px; */
 }
 
 .about-section .text-column .sec-title {
@@ -3991,6 +3991,7 @@ img.lazy-image.loaded {
 .about-section .text-column .text ul {
   position: relative;
   float: left;
+  width: 80%;
 }
 
 .about-section .text-column .text ul li {
@@ -4012,9 +4013,9 @@ img.lazy-image.loaded {
 
 .about-section .text-column .text .since {
   position: relative;
-  float: left;
-  margin-left: 82px;
-  margin-top: 10px;
+  float: right;
+  /* margin-left: 82px; */
+  margin-top: 20px;
 }
 
 .about-section .text-column .text .since:before {
@@ -4067,9 +4068,9 @@ img.lazy-image.loaded {
 ***/
 .live-section {
   position: relative;
-  padding: 120px 0px 100px 0px;
+  margin: 120px 0px 120px 0px;
   background: #ffffff;
-  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  /* border-top: 1px solid rgba(0, 0, 0, 0.05); */
 }
 
 .live-section__one-page {
@@ -4103,20 +4104,27 @@ img.lazy-image.loaded {
 .live-section .main-image-box .inner {
   position: relative;
   padding: 20px 0px;
+  display: grid;
+  justify-content: center;
 }
 
 .live-section .main-image-box .round-box {
   position: relative;
-  display: block;
-  float: right;
-  right: -25px;
-  width: 490px;
+  /* display: inline-flex; */
+  /* float: right; */
+  /* right: -25px; */
+  align-content: center;
+  width: 100%;
   height: 490px;
   border-radius: 50%;
 }
 
+.round-inner{
+  text-align: center;
+}
+
 .live-section .main-image-box .round-box:before {
-  content: "";
+  /* content: "";
   position: absolute;
   left: -65px;
   top: -45px;
@@ -4124,23 +4132,23 @@ img.lazy-image.loaded {
   height: 490px;
   background: var(--thm-black);
   opacity: 0.2;
-  border-radius: 50%;
+  border-radius: 50%; */
 }
 
 .live-section .main-image-box .round-inner {
-  position: relative;
+  /* position: relative;
   display: block;
   width: 490px;
   height: 490px;
   padding: 190px 80px 50px 70px;
   background: var(--thm-base);
-  border-radius: 50%;
+  border-radius: 50%; */
 }
 
 .live-section .main-image-box .vid-link {
-  position: absolute;
-  left: 55px;
-  top: 25px;
+  /* position: absolute; */
+  /* left: 55px; */
+  /* top: 25px; */
   width: 84px;
   height: 84px;
   line-height: 84px;
@@ -4247,6 +4255,7 @@ img.lazy-image.loaded {
 }
 
 .live-section .main-image-box .title {
+  text-align: center;
   position: relative;
 }
 
@@ -4937,7 +4946,7 @@ img.lazy-image.loaded {
 ***/
 .facts-section {
   position: relative;
-  padding: 0px 0px 290px;
+  padding: 50px 0px 50px 0px;
   background: #1c1e22;
   color: #ffffff;
   z-index: 2;
@@ -4959,10 +4968,10 @@ img.lazy-image.loaded {
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
-  -webkit-filter: grayscale(100%);
+  /* -webkit-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
-  filter: grayscale(100%);
+  filter: grayscale(100%); */
   opacity: 0.3;
 }
 
@@ -4977,12 +4986,12 @@ img.lazy-image.loaded {
 .fact-counter .column {
   position: relative;
   text-align: center;
-  margin-bottom: 70px;
+  /* padding-bottom: 70px; */
 }
 
 .fact-counter .column .inner {
   position: relative;
-  padding: 120px 0px 0px;
+  padding: 60px 0px 60px 0px;
 }
 
 /* .fact-counter .column .inner:before {
@@ -5009,7 +5018,7 @@ img.lazy-image.loaded {
   content: "";
   right: -15px;
   top: 0;
-  bottom: 7px;
+  bottom: 0px;
   border-left: 1px solid rgba(255, 255, 255, 0.15);
 }
 
@@ -5051,14 +5060,14 @@ img.lazy-image.loaded {
 ***/
 .trusted-section {
   position: relative;
-  padding: 0px 0px 70px;
+  padding-block: 70px;
   background: none;
   z-index: 2;
 }
 
 .trusted-section .outer-container {
   position: relative;
-  margin-top: -240px;
+  /* margin-top: -240px; */
 }
 
 .trusted-section .row {
@@ -5119,7 +5128,7 @@ img.lazy-image.loaded {
   border-bottom: 1px solid #e9ebee;
 }
 
-.trusted-section .feature .count {
+/* .trusted-section .feature .count {
   position: absolute;
   right: 0;
   top: 55px;
@@ -5135,6 +5144,27 @@ img.lazy-image.loaded {
   color: var(--thm-base);
   text-transform: uppercase;
   border-radius: 50%;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  font-family: var(--thm-font);
+} */
+
+
+.trusted-section .feature .count {
+  display: inline-block;
+  position: relative;
+  /* width: 80px; */
+  /* height: 80px; */
+  text-align: center;
+  background: rgba(var(--thm-base-rgb), 0.2);
+  padding: 20px;
+  line-height: 40px;
+  /* padding-top: 22px; */
+  margin-bottom: 40px;
+  font-size: 30px;
+  letter-spacing: 1px;
+  color: var(--thm-base);
+  border-radius: 5px;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
   font-family: var(--thm-font);
@@ -5157,7 +5187,7 @@ img.lazy-image.loaded {
   font-weight: 400;
   font-size: 24px;
   /* letter-spacing: 0.1em; */
-  color: var(--thm-text);
+  color: white !important;
   text-transform: uppercase;
   line-height: 1.25em;
   font-family: var(--thm-font);
@@ -6626,7 +6656,7 @@ img.lazy-image.loaded {
 .call-to-section .inner {
   position: relative;
   display: block;
-  padding: 95px 95px 68px;
+  padding: 95px 150px 68px;
   background: var(--thm-base);
   color: var(--thm-black);
   border-radius: 7px;
@@ -13305,6 +13335,7 @@ img.lazy-image.loaded {
 }
 
 .body-dark .about-section .text-column .text .since .txt {
+  font-weight: bold;
   background-color: #ffffff;
   color: #222429;
 }
@@ -13397,6 +13428,10 @@ img.lazy-image.loaded {
 .body-dark .sponsors-section-two,
 .body-dark .trusted-section .feature {
   border-color: rgba(255, 255, 255, 0.1);
+}
+
+.body-dark .trusted-section .feature:last-child{
+  border-bottom: none;
 }
 
 /* team section dark */
@@ -26533,4 +26568,8 @@ img.lazy-image.loaded {
   opacity: 1;
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
+}
+
+.count-text2{
+  font-size: 60px;
 }
