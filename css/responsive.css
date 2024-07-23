@@ -427,13 +427,22 @@
     padding: 0px 0px 60px;
   }
 
+  .about-section{
+    padding: 120px 0 0;
+  }
+
   .live-section,
   .services-section-two,
   .gallery-section-two,
   .get-quote-two,
   .services-section-three.padd-top {
-    padding-top: 90px;
+    padding-top: 40px;
   }
+
+
+  /* .live-section{
+    margin: auto;
+  } */
 
   .map-section {
     padding-bottom: 90px;
@@ -529,7 +538,7 @@
   }
 
   .about-section .text-column .text .since {
-    margin-left: 40%;
+    margin-right: 30%;
     margin-bottom: 30px;
   }
 
