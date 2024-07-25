@@ -109,7 +109,7 @@
   }
 
   .banner-carousel .slide-item .image-layer {
-    background-image: url(../images/sayer2024/sayer4-2.jpg) !important;
+    background-image: url(../images/sayer2024/sayerMob.JPG) !important;
   }
 
   .banner-carousel .slide-item:before {
@@ -440,9 +440,12 @@
   }
 
 
-  /* .live-section{
-    margin: auto;
-  } */
+  .live-section{
+    margin-top: 0px;
+    margin-bottom: 60px;
+  }
+
+
 
   .map-section {
     padding-bottom: 90px;
@@ -719,6 +722,10 @@
     font-size: 55px;
   }
 
+  .main-footer .widgets-section{
+    text-align: center;
+  }
+
   .banner-section-four .swiper-slide .auto-container {
     text-align: center;
   }
@@ -781,10 +788,15 @@
   }
 
   .banner-carousel .content-box {
-    height: 600px;
+    margin-top: 70%;
+    /* margin-bottom: 50%; */
+    height: 100%;
     text-align: center;
   }
 
+  .about-section .text-column .link-box{
+    text-align: center;
+  }
   .banner-carousel .slide-item .left-top-line,
   .banner-carousel .slide-item .right-bottom-curve,
   .banner-carousel .slide-item .right-top-curve {
