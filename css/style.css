@@ -4723,7 +4723,9 @@ img.lazy-image.loaded {
 .social-img img{
   border-radius: 7px;
   margin-bottom: 30px;
-  height: fit-content;
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .mixitup-gallery .gallery-item-two {
