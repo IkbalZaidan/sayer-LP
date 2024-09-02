@@ -412,7 +412,7 @@
   //Main Slider / Banner Carousel
   if ($(".banner-carousel").length) {
     $(".banner-carousel").owlCarousel({
-      loop: true,
+      loop: false,
       animateOut: "fadeOut",
       animateIn: "fadeIn",
       margin: 0,
@@ -775,13 +775,13 @@
           items: 1
         },
         600: {
-          items: 1
+          items: 2
         },
         768: {
-          items: 1
+          items: 3
         },
         1200: {
-          items: 1
+          items: 3
         }
       }
     });

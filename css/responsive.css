@@ -191,7 +191,7 @@
 
   .banner-carousel .content-box h1,
   .banner-three .banner-carousel .content-box h1 {
-    font-size: 100px;
+    font-size: 40px;
   }
 
   .about-section .text-column .inner {
@@ -383,8 +383,7 @@
   }
 
   .banner-carousel .content-box h1 {
-    font-size: 80px;
-    line-height: 1em;
+    font-size: 30px;
   }
 
   .banner-carousel .content-box .link-box {
@@ -396,8 +395,36 @@
     text-align: center;
   }
 
-  .banner-carousel .content-box h1 br {
+  .services-section .sec-title {
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+
+  .single-feature::before{
     display: none;
+  }
+
+  .trusted-section .feature{
+    padding-top: 0px;
+  }
+
+  .we-do-section .sec-title{
+    margin-bottom: 5px;
+    text-align: center;
+  }
+
+  .why-us-section .feature {
+    margin-bottom: 0px;
+  }
+
+  .social-text{
+    padding-inline: 10px;
+    font-size: 18px;
+  }
+
+  .feature-title{
+    margin-bottom: 30px;
+    font-size: 30px;
   }
 
   .banner-three .banner-carousel .content-box h1 {
@@ -427,7 +454,7 @@
     padding: 0px 0px 60px;
   }
 
-  .about-section{
+  .about-section {
     padding: 120px 0 0;
   }
 
@@ -440,7 +467,7 @@
   }
 
 
-  .live-section{
+  .live-section {
     margin-top: 0px;
     margin-bottom: 60px;
   }
@@ -545,7 +572,7 @@
     margin-bottom: 30px;
   }
 
-  .about-section .text-column .text .since:after{
+  .about-section .text-column .text .since:after {
     display: none;
   }
 
@@ -722,7 +749,7 @@
     font-size: 55px;
   }
 
-  .main-footer .widgets-section{
+  .main-footer .widgets-section {
     text-align: center;
   }
 
@@ -788,15 +815,16 @@
   }
 
   .banner-carousel .content-box {
-    margin-top: 70%;
+    margin-top: 50%;
     /* margin-bottom: 50%; */
     height: 100%;
     text-align: center;
   }
 
-  .about-section .text-column .link-box{
+  .about-section .text-column .link-box {
     text-align: center;
   }
+
   .banner-carousel .slide-item .left-top-line,
   .banner-carousel .slide-item .right-bottom-curve,
   .banner-carousel .slide-item .right-top-curve {
@@ -995,8 +1023,17 @@
 
 @media only screen and (max-width: 599px) {
   .banner-carousel .content-box h1 {
-    font-size: 46px;
+    font-size: 30px;
   }
+
+  .banner-carousel .content-box h1 span {
+    font-size: 30px;
+  }
+
+  .banner-carousel .content-box .sub-title {
+    font-size: 24px;
+  }
+
 
   .banner-three .banner-carousel .content-box h1 {
     font-size: 46px;
@@ -1032,7 +1069,7 @@
   }
 
   .sec-title h2 {
-    font-size: 36px;
+    font-size: 26px;
     line-height: 1.15em;
   }
 
